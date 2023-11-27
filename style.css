@@ -1,0 +1,99 @@
+/************* site ****************/
+
+* {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-color: #bdd6e4;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  padding-left: 20%;
+  padding-right: 20%;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 120%;
+  color: rgb(0, 0, 0);
+  margin-left: 50px;
+  margin-right: 100px;
+  font-family: "Noto Serif", serif;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 5%;
+}
+body {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/************* forside ****************/
+
+.forside {
+  padding-top: 3%;
+  display: grid;
+  place-content: center;
+  padding-bottom: 10%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(45%, 45%);
+  font-size: 100%;
+}
+
+/************* billede ****************/
+
+.billede_grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3%;
+  padding-bottom: 3%;
+}
+
+.billede_grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+  padding-bottom: 10%;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 200%;
+  color: rgb(0, 0, 0);
+  font-family: "Noto Serif", serif;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/************* video ****************/
+
+video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+.videoside {
+  padding-left: 10%;
+  padding-right: 10%;
+}
